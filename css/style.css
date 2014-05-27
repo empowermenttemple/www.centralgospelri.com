@@ -1,0 +1,1051 @@
+@CHARSET "ISO-8859-1";
+/* General Demo Style */
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+
+*{
+    margin: 0;
+        font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+.underline{
+    border-bottom: 1px solid royalblue;
+}
+li{
+    list-style: none;
+}
+.main-page-video{
+    width: 40em;
+    height: 22.500em;
+
+}
+.gap_10{
+padding-top: 30px;
+}
+.picture_links,.prayer_request,.service_time,.view_ministry{
+    width: 1000px;
+    margin: auto;
+}
+.main-page-events{
+
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+    border: 2px solid white;
+}
+.minHeight{
+    height: 800px;
+}
+#event-head,#service-head{
+    font-family: 'Lato',Verdana,sans-serif;
+    font-size: 1em;
+    padding-left: 0.75em;
+    padding-bottom: 0.25em;
+    text-transform: uppercase;
+    letter-spacing:0.2em;
+    border-bottom: 2px solid skyblue;
+}
+
+.blueColor{
+    color: blue;
+}
+.main-page-contact  label{
+    display: block;
+    font-size: 1em;
+}
+.gap_1{
+    margin: 1em;
+}
+.main-page-contact input[type="text"],.main-page-contact input[type="email"]{
+    font-size: 1em;
+    letter-spacing: 0.2em;
+    background-color: whitesmoke;
+}
+.event-details{
+   font-family: 'Lato',Verdana,sans-serif; 
+   padding-left: 1em;
+   letter-spacing:0.1em;
+   font-size: 1em;
+   padding-bottom: 0.5em;
+  
+}
+.events-icon{
+width:20px;
+}
+.event-details > span{
+    display:block;
+}
+.top-col-photo{
+    width: 50%;
+
+}
+.main-container{
+    margin: auto;
+    width: 62.50em;
+    background-color: white;
+    padding: 0 0.5em;
+}
+.top-container{
+    width: 62.50em;
+    margin: auto;
+
+}
+.rotateImg{
+transform:rotate(90deg);
+-ms-transform:rotate(90deg); /* IE 9 */
+-webkit-transform:rotate(90deg); /* Safari and Chrome */
+}
+.class{
+    width: 800px;
+    margin: auto;
+}
+.pie1{
+    font:14px Constantia;
+    color: white;
+}
+
+#slider{
+    width:1200px;
+    height: 200px;
+    margin: auto;
+}
+#status{
+    width: 1000px;
+    margin: auto;
+}
+.head{
+font-family: 'Lato',Verdana,sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    color: gold;
+}
+.links{
+    font-family: 'Lato',Verdana,sans-serif;
+    font-size: 16px;
+    width: 100%;
+    margin: auto;
+    color: white;
+}
+.header-banner{
+    width: 80%;
+    margin: auto; 
+}
+.ministry{
+    border-bottom: 1px solid skyblue;
+
+}
+.links ul{
+    padding: 15px;
+    width: 100%; 
+}
+li{
+    padding: 5px;
+}
+.links ul li a:hover{
+    border-bottom: 5px solid red;
+}
+.top-banner{
+      background-color: green; 
+      height: 80px;
+}
+.floatLeft{
+    float: left;
+}
+.floatRight{
+    float:right;
+}
+.icgc-logo{
+    width:35%;
+    float: left;
+}
+.icgc-logo img{
+    height: 5em;
+}
+.indexbanner{
+    margin: auto;
+    width: 1200px;
+}
+.indexbanner img{
+    width: 100%;
+}
+.pastor-logo{
+    position: absolute;
+        top: 0;
+    left: 1200px;
+}
+
+.programme-detail{
+    width:60%;
+    margin: auto;
+}
+
+#photo{
+    height: 50px;
+    padding: 20px;
+}
+
+#pledge_table .pledge-tbl{
+    margin: auto;
+    width: 1000px;
+}
+.icons ul{
+    display: block;
+}
+.foot-table{
+    font-family: 'Lato';
+    font-size:80%;
+}
+.foot-table span{
+    color: #74C365;
+}
+.goldColor{
+    color: #FFD700;
+}
+.footer{
+    position:absolute !important;
+    color: white;
+    width:100%;
+    top:10;
+    padding:1em 0;
+    background:green;
+    border-top:1px solid #666;
+}
+.first-head{
+    margin: auto;
+    width: 1200px;
+}
+.foot h4{
+    color: #111;
+}
+.foot li{
+    padding-left: 10px;
+}
+
+.foot{
+    width:100%;  
+    margin: auto;
+    border-top: 2px solid black;
+    font-family: 'Lato',Verdana,sans-serif;
+    font-size: 110%;
+    height: 14em;
+
+}
+
+.foot ul {
+   width: 90%;
+   margin: auto;
+}
+.foot-list{
+    width: 31%;
+    font-size: 90%;
+}
+.results{
+    margin: auto;
+    width: 500px;
+    background-color: lavender;
+    font-family: Verdana;
+    border: 2px #b7b7b7 solid;
+}
+.first_logo{
+    margin: auto;
+    width: 1000px;
+    background-color: white;
+}
+
+#tithe_table .tithe-tbl{
+    width: 100%;
+    margin: auto;
+}
+.tithe-tbl tr{
+    width: auto;
+}
+.search_tithe{
+    margin: auto;
+    width: 1000px;
+}
+.tithe-details{
+    margin: auto;
+    width: 1000px;
+}
+.tithe-tbl, .pledge-tbl{
+    font-family: Verdana;
+    border: none;
+    background-color: whitesmoke;
+}
+.tithe-tbl thead tr, .pledge-tbl thead tr{
+    background-color: blue;
+    border: none;
+    color: white;
+}
+.tithe-tbl tbody tr, .pledge-tbl tbody tr{
+    padding: 2px;
+    border:none;
+    background-color: white;
+    text-align: center;
+}
+.userdetails{
+    width: 100%;
+    margin: auto;
+    padding: 10px;
+    text-align: right;
+    color: blue;
+}
+.department-list{
+    margin: auto;
+    width: 80%;
+    background-color: #b7b7b7;
+}
+.department-list thead tr{
+    background-color: blue;
+    color: white;
+    font-family: Georgia;
+    font-size: 14px;
+}
+.department-list tbody tr{
+    background-color: white;
+    color: black;
+    font-family: Georgia;
+    font-size: 14px;
+    margin: 10px;
+    text-align: center;
+}
+#logout{
+    text-align: right;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: blue;
+}
+/*Church Incation*/
+.church{ width: 500px; margin: auto;}
+.church_setup{
+    font-family: Verdana;
+    font-size:14px;
+    margin-left: 20px;
+}
+/*End Church*/
+.main-lower-links ul  li{
+    display: inline;
+    width: 30%;
+
+}
+.main-lower-links ul{
+    margin: auto;
+}
+.main-lower-links {
+                box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+                border: 2px solid white;
+                                padding: 10px;
+                                background-color: white;
+                                margin:auto;
+}
+.connect-links  ul  li{
+    padding: 7px;
+    display: inline-block;
+    box-shadow: 1px 2px 4px rgba(0,0,0,0.5);
+}
+.event-label{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+}
+.event-label-info-label{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1em;
+    font-weight: bold;
+}
+.event-label-info-phone{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+}
+#event-theme-content{
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    color: blue;
+    font-weight: 600;
+    margin-left: 0.75em;
+}
+.connect-links{
+    width: 60em;
+    margin: auto;
+    background-color: white;
+}
+.picture_links{
+    background-color: lavender;
+}
+body{
+    margin: 0px;
+    padding: 0;
+    background: url('../images/background.png');
+}
+#church_head{
+    font-size: 34px;
+    font-family: Cambria;
+    width: 800px;
+    margin-left: 10px;
+    position: absolute;
+    top: 10px;
+    left: 440px;
+
+}
+#heads{
+    font-size:34px;
+    font-family:Georgia; 
+}
+#image-link{
+    width: 100px;
+    height: 100px;
+}
+#heads-min{
+    font-size:20px;
+    color: green;
+    font-weight: bold;
+
+}
+
+#left-links{
+
+    background-color: lavender;
+}
+
+.index-pix{
+    border: 2px solid whitesmoke;
+}
+#prayerrequest{
+    width: 376px;
+    height: 200px;
+}
+#prayer-request{
+    width: 600px;	
+}
+
+.menu ul li a,.photo_menu ul li a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul li a:hover,.photo_menu ul li a:hover{
+    color: blue;
+}
+.menu ul li a:focus{
+    color: red;
+}
+.main{
+    background-color: white;
+    margin: auto;
+    width:65%;
+    position: relative;
+    top: 0px;
+}
+
+.about_nav{
+    background-color: royalblue;
+    border: 2px solid whitesmoke;
+    padding: 5px;
+    font-size: 18px;
+}
+#vision,#service_time{
+    text-align: justify;
+    width: 60%;
+    font-size: 14px;
+    font-family:Verdana;
+
+}
+#main{
+    text-align: justify;
+    width: 65%;
+    font-size: 18px;
+    font-family:"Lato", Times, serif;
+    margin: 15px;
+
+}
+.slider-gallery{
+        width: 500px;
+        margin: auto;
+}
+#logo a:link{
+    text-decoration: none;
+    border: 0px solid black;
+}
+.logo_images{
+    border: 0px;
+}
+#headings{
+    font-family: 'Lato', Times, serif;
+    font-size: 100%;
+    padding: 0.6em;
+    border: 3px solid lavender;
+}
+.slider-gallery{
+    width: 500px;
+}
+#service{
+    text-align: justify;
+    margin-left: 15px;}
+#service h3{
+    font-size: 100%;
+    color: blue;
+    padding-bottom: 0.5em;
+}
+#service p,#service div{
+    padding:0.2em;
+    margin: 0.2em;
+}
+.temple{
+    font-weight: 600;
+    font-size: 18px;
+    color: white;
+    font-family: 'Lato',Verdana,sans-serif;
+}
+.heading{
+    width: 800px;
+    height: 100px;
+    margin: 0px;
+}
+
+#church_head_min{
+    position: absolute;
+    top: 50px;
+    left: 450px;
+}
+.accept_jesus{
+    background-color: whitesmoke;
+    width: 1198px;
+    padding: 1px;
+    margin: auto;
+}
+.links{
+    font-family: Verdana;
+
+    font-size: 14px;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+.links ul{
+    padding: 15px;
+    width: 100%;
+    background-color: green;  
+}
+#headings{
+    background-color: white;
+    font-family:"Georgia", Times, serif;
+    font-size: 1em;
+    padding: 10px;
+    border: 3px solid lavender;
+}
+#event_td{
+    padding: 10px;
+}
+.links ul li a{
+    text-decoration: none;
+    padding: 15px;
+    color: white;
+}
+.links ul li a:hover{
+    color: black;
+    border-bottom: 5px solid red;
+}
+
+.menu{
+    background-color: white;
+    position: fixed;
+    width: 100%;
+    margin: auto;
+}
+.photo_menu{
+    background-color: blue;
+    padding-left:15px;
+    color: white;
+    font-family: Georgia;
+    font-size: 18px;
+    position: relative;
+    top:20px;
+    width: 986px;
+}
+.menu ul li,.links ul li,.picture_links ul li,.photo_menu ul li,.index ul li,.icons {
+    display: inline;
+}
+.index ul li{
+    list-style: none;
+}
+.healthmk13{
+    width: 600px;
+}
+.connect{
+    width: 40em;
+    text-align: justify;
+    font-family:'Lato',Calibri, sans-serif;
+    font-size: 1em;
+}
+.container{
+    width: 80%;
+    margin: auto;
+}
+.connect-content{
+    padding: 0.5em;
+    text-align: justify;
+}
+#connect{
+    width: 540px;
+    color: royalblue;
+    font-size: 1.1em;
+    font-family: 'Lato', Verdana;
+    letter-spacing: 2px;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #000;
+    margin-bottom: 0.5em;
+    margin-top: 0.5em;
+}
+#subheading{
+    width: 140px;
+    font-family: Verdana;
+    color: white;
+    font-size: 18px;
+    background-color: green;
+}
+.gallery{
+    width: 1200px;
+    margin:auto;
+}
+.index-login{
+    position:absolute;
+    top:-10px;
+    left: 800px;
+    font-size:16px;
+}
+.icons{
+    padding: 20px; 
+}
+.menu-main{
+    padding:10px;
+    margin: auto;
+    color: white;
+}
+.photo-main{
+    padding: 20px;
+    background-color: white;
+    margin: auto
+}
+.location{
+    border: 2px solid lavender;
+}
+.contact{
+    width: 980px;
+    margin: auto;
+    font-family: Verdana;
+    padding: 10px;     
+}
+.about{
+    width: 80%;
+    margin: auto;
+    font-family: 'Lato',Cambria;
+    background-color: white;
+}
+#hr{
+    border: 1px solid black;
+}
+
+.footer table{
+    font-family: Cambria;
+    font-size: 16px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding-left: 30px;
+}
+.footer a:visited,.footer a:active{
+    text-decoration: none;
+}
+#logout-icon{
+}
+#home-icon{
+    position: relative;
+    top: 0px;
+    right: -450px;
+}
+#loginname{
+    background-color: whitesmoke;
+    width: 100%;
+    border-bottom: 6px solid royalblue;
+}
+#loginname #lampstand,#colon{
+    font-size: 20px;
+    color: black;
+}
+#nav{
+    width: 100%;
+    border: 2px solid gray;
+    background-color: lavender;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.loginname img{
+    margin-left: 60px;
+    margin-top: 5px;
+}
+.add{
+    width: 100px;
+    background-color: royalblue;
+    border: 2px solid whitesmoke;
+    color: white;
+}
+#designer{
+    font-weight: bold;
+    font-size: 12px;
+}
+#contact_form{
+    font-size: 16px;
+}
+#heading center{
+    background-color: mediumturquoise;
+    padding: 0%;
+    width: 550px;
+    color: #002166;
+}
+#photo-heading{
+    background-color: mediumturquoise;
+    padding: 0%;
+    width: 600px;
+    color: #002166;
+}
+#about-links{
+    color: royalblue;
+    width: 240px;
+    font-size: 18px;
+    padding: 5px;
+    font-family:"Georgia", Times, serif;
+}
+#heading{
+    color: royalblue;
+    width: 340px;
+    font-size: 1em;
+    padding: 5px;
+    font-family:"Georgia", Times, serif;
+}
+.other-contact{
+    font-size: 100%;
+    width: 45%;
+    float: right;  
+    font-family: 'Lato',Georgia;
+}
+.contactLeft > p{
+    color: royalblue;
+}
+#prayer_request{
+    margin-left: 10px;
+    width:300px;
+}
+.about-links div #about-links{
+    background-color: royalblue;
+    border: 0px;
+    margin: 5px;
+}
+.about-links div #about-links:hover{
+    background-color: green;
+    color: black;
+    margin: 5px;
+}
+.about-links div #about-links a{
+    text-decoration: none;
+    color: white;
+}
+.about-links{
+    float: right;
+    width: 340px;
+}
+.counter{
+    background-color:#00703C;
+    font-family: 'Lato';
+    margin: auto;
+    width:100%;
+}
+.counter-container{
+    width: 80%;
+    margin:auto;
+}
+.service_time_head{
+    letter-spacing: 2px;
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+    border-bottom: 3px solid black;
+}
+.counter-event{
+    letter-spacing: 2px;
+    color: gold;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+.counter-program{
+    letter-spacing: 0.1em;
+    color: white;
+    font-size: 120%;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.counter-program span{
+    font-size: 0.50em;
+    color: gold;
+}
+.contact-form{
+    width: 50%;
+}
+
+.loginhead{
+    font-size: 18px;
+    font-family:"Georgia", Times, serif;
+    padding: 10px;
+}
+.login-head{
+
+    float: right;
+}
+#footer,#update_pledge{
+    font-family: Cambria;
+    font-size: 16px;
+}
+
+.pledge_setup{
+    width: 1000px;
+    margin: auto;
+}
+#pledge-setup{
+    margin-left: 30px;
+}
+#hr{background-color:black; border: 0px; height: 2px;}
+#sr{background-color:lightgray; border: 0px; height: 2px; }
+#depart-heading,#pledge_heading{
+    background-color: royalblue;
+    color: white;
+    padding: 2px;
+}
+#events_table{
+    margin: auto;
+    padding: 10px;
+    font-family: Georgia;
+    font-size: 18px;
+}
+#events_table thead tr{
+    background-color: blue;
+    padding: 10px;
+    border:none;
+    color: white;
+}
+#events_table tbody tr{
+    background-color: white;
+    text-align: center;
+    color:black;
+}
+#member-page a,#member-page strong{
+    background-color: lavender;
+    padding: 4px 6px;
+    border: 1px solid lightgray;
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    outline: none;
+}
+a > img{
+    border: 0;
+}
+.main-gallery{
+    width:62.500em;
+    background-color: whitesmoke;
+}
+.order-background{
+    width: 62.50em;
+    height: 500px;
+}
+
+.queue img{
+    height:100px;
+}
+.queue{
+    margin-bottom: 20px;
+    width: 60%;
+    overflow: hidden;
+    height: 150px;
+}
+.frontpage-queue{
+    margin-bottom: 20px;
+    width: 90%;
+    overflow: hidden;
+    height: 150px;
+}
+.frontpage-queue img{
+    height:150px;
+}
+/**Quote Rotator***/
+.cbp-qtrotator {
+	position: relative;
+	margin: 1em 3em 1em auto;
+	max-width: 65.50em;
+	width: 100%;
+	min-height: 400px;
+}
+
+.cbp-qtrotator .cbp-qtcontent {
+	position: absolute;
+	min-height: 200px;
+	top: 0;
+	z-index: 0;
+	opacity: 0;
+	width: 100%;
+}
+
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	border-bottom: none;
+}
+
+.cbp-qtrotator .cbp-qtcontent.cbp-qtcurrent,
+.no-js .cbp-qtrotator .cbp-qtcontent {
+	position: relative; 
+	z-index: 100;
+	pointer-events: auto;
+	opacity: 1;
+}
+
+.cbp-qtrotator .cbp-qtcontent:before,
+.cbp-qtrotator .cbp-qtcontent:after {
+	content: " ";
+	display: table;
+}
+
+.cbp-qtrotator .cbp-qtcontent:after {
+	clear: both;
+}
+
+.cbp-qtprogress {
+	position: absolute;
+	background: #47a3da;
+	height: 1px;
+	width: 0%;
+	top: 0;
+	z-index: 1000;
+}
+
+.cbp-qtrotator blockquote {
+	margin: 0;
+	padding: 0;
+}
+
+.cbp-qtrotator blockquote p {
+	font-size: 2em;
+	color: #888;
+	font-weight: 300;
+	margin: 0.4em 0 1em;
+}
+
+.cbp-qtrotator blockquote footer {
+	font-size: 1.2em;
+        color: royalblue;
+}
+
+.cbp-qtrotator blockquote footer:before {
+	content: '-  ';
+        
+}
+
+.cbp-qtrotator .cbp-qtcontent img {
+	float: right;
+	margin-left: 3em;
+}
+
+/* Example for media query */
+@media screen and (max-width: 30.6em) { 
+
+	.cbp-qtrotator {
+		font-size: 70%;
+	}
+
+	.cbp-qtrotator img {
+		width: 80px;
+	}
+
+}
+@media screen and (max-width: 575px){
+    .main-page-events,.main-page-service {
+        float: none;
+        width: 100%;
+    }
+    .top-col-photo{
+        float: none;
+        width: 100%;     
+    }
+    .counter-program{
+        font-size: 100%;
+    }
+    .counter-program > span{
+        display: block;
+    }
+}
+@media screen and (min-width: 575px) and (max-width: 960px){
+    .main-page-events,.main-page-service {
+        float: none;
+        width: 100%;
+    }
+    .top-col-photo{
+        float: none;
+        width: 100%;     
+    }
+    .counter-program{
+        font-size: 100%;
+    }
+    .counter-program > span{
+        display: block;
+    }
+    .counter{
+        font-size: 75%;
+    }
+}
+/**Quote Rotator Ends**/
+.countdown{
+	width:50%;
+	margin:0 auto;
+	font: 1.5em 'Lato',sans-serif;
+	text-align:center;
+	letter-spacing:3px;
+        color:#fff;
+}
+
+
+.styled{
+  margin-bottom: 1em;
+}
+
+.styled div {
+  display: inline-block;
+  margin-left: 10px;
+  font-size: 1.8em;
+  font-weight: 100;
+  line-height: 1;
+  text-align: right;
+}
+/* IE7 inline-block hack */
+*+html .styled div{
+  display: inline;
+  zoom: 1;
+}
+.styled div:first-child {
+  margin-left: 0;
+}
+.styled div span {
+  display: block;
+  border-top: 1px solid gold;
+  padding-top: 3px;
+  font-size: 0.35em;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+}
+
